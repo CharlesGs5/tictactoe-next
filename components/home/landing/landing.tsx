@@ -94,18 +94,6 @@ const LandingUi = () =>{
                 player)
               </span>
           </Button>
-          <Button
-            type="submit"
-            id="online"
-            onClick={handleModeChoose}
-            colorChange="green">
-              <span>
-                new game (
-                <span aria-hidden>vs </span>
-                <SrOnly>versus</SrOnly>
-                online)
-              </span>
-          </Button>
         </ModeWrapper>
       </Form>      
     </Wrapper>
